@@ -1,0 +1,58 @@
+.body {
+  width: 550px;
+  margin: auto;
+  margin-top: 25px;
+  font-family: monospace;
+}
+
+.header {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+} 
+
+.bigbox {
+  width: 526px;
+  height: 95px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: black;
+  display: table;
+}
+
+.date {
+  border: none; 
+}
+
+.price {
+  font-size: 60px;
+  width: 110px;
+  float: left;
+}
+
+span {
+  width: 425px;
+  font-size: 22px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 15px;
+}
+
+.time {
+  width: 100%;
+  text-align: center;
+  float: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+} 
+
+.footer {
+  height: 100px;
+} 
