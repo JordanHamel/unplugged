@@ -1,7 +1,23 @@
 <head>
+  <title>InAppBrowser.addEventListener Unplugged</title>
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="index.css">
   <script src="jquery.min.js"></script> 
+  
+  <script type="text/javascript" charset="utf-8">
+
+    // Wait for Cordova to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+          console.log("hi");
+    // Cordova is ready
+    //
+    function onDeviceReady() {
+      window.open('http://apache.org', '_blank', 'location=yes');
+    }
+
+  </script>
 </head>
 
 <div class=body>

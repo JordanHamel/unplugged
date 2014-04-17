@@ -20,5 +20,9 @@
 	</gap:platforms>
   
     <preference name="EnableViewportScale" value="true" />
+  
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+  
+    <plugin name="InAppBrowser" value="CDVInAppBrowser" />
 
 </widget>
