@@ -19,6 +19,6 @@
       <gap:platform name="android" />
 	</gap:platforms>
   
-    <gap:plugin name="com.kumbe.phonegap.zoom.zoomcontrol" version="0.1.3" />
+    <preference name="EnableViewportScale" value="true" />
 
 </widget>
