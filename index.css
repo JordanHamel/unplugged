@@ -25,26 +25,25 @@ a {
   clear: both;
   font-size: 1.5em;
   text-align: center;
-  padding: 15px 0px;
+  padding: 5px 0px 15px 0;
 }
 
 .price {
-  width: 50%;
+  width: 25%;
   float: left;
-  font-size: 30px;
-  line-height: 30px;
 }
 
-.time {
+.time { 
   float: right;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  background-color: black;
+}
+
+.bottom {
+  font-size: 18px;
+  padding-bottom: 20px;
 }
 
 .description {
-  padding: 0 15px 15px 15px;
+  padding: 0 15px 20px 15px;
   margin: auto;
   text-align: justify;
 }
