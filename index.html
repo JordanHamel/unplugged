@@ -1,5 +1,4 @@
 <head>
-  <meta name="viewport" content="width=device-width, user-scalable=1">
   <link rel="stylesheet" type="text/css" href="index.css">
   <script src="jquery.min.js"></script> 
 </head>
@@ -51,6 +50,12 @@
   </a>
 
 </div>
+
+<script type=text/javascript>
+  $(document).bind("mobileinit", function(){
+    $.mobile.metaViewportContent = "width=device-width, minimum-scale=1, maximum-scale=3";
+  });
+</script>
 
 <!--
 <a href="">
